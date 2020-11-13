@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="bg"></div>
+            <div class="jumbotron owl-carousel owl-theme">
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic2.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic1.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic2.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic1.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbotron owl-carousel owl-theme">
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic2.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic1.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic2.jpg);">
+                    </div>
+                </div>
+                <div class="jumbotron__item">
+                    <div class="image" style="background-image: url(./img/pic1.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="form">
+                <div class="row">
+                    <h1 class="form-title">預約賞錶</h1>
+                    <form action="">
+                        <div class="col-1-1">
+                            <input class="name" type="text" placeholder="姓名">
+                        </div>
+                        <div class="col-1-1">
+                            <select class="select" name="" id="">
+                                <option value="" disabled selected hidden>下拉選項</option>
+                                <option value="">11111111</option>
+                                <option value="">2222222</option>
+                                <option value="">3333333</option>
+                            </select>
+                        </div>
+                        <div class="col-1-1">
+                            <input type="checkbox" name="agree" id="agree">
+                            <label for="agree" class="agree">我已同意XXX</label>
+                        </div>
+                        <div class="col-1-1">
+                            <input class="submit" type="submit" value="確認送出">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                nav: true,
+                items: 1,
+                autoplay: true,
+                autoplaySpeed: 800,
+                navText: []
+            })
+        })
+    </script>
+</body>
+
+</html>
