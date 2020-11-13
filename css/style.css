@@ -1,6 +1,8 @@
 * {
     position: relative;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .bg {
@@ -20,7 +22,7 @@
     width: 640px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:992px) {
     .container {
         width: 900px;
     }
@@ -38,8 +40,6 @@
 .jumbotron2 {
     margin-bottom: 29px;
 }
-
-.jumbotron__item {}
 
 .item-text {
     color: #c8957f;
@@ -92,7 +92,7 @@ iframe {
     height: 296px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:992px) {
     iframe {
         width: 788px;
         height: 460px;
@@ -108,7 +108,7 @@ iframe {
     text-align: center;
 }
 
-@media (min-width:1024px) {
+@media (min-width:992px) {
     .form {
         height: 1120px;
     }
