@@ -1,5 +1,5 @@
 * {
-    position: relative;
+    /* position: relative; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -50,55 +50,19 @@
     padding-top: 16px;
 }
 
-.jumbotron1,
-.jumbotron2 {
-    position: relative;
+.owl-theme {
+    /* position: relative; */
 }
 
-.jumbotron1 .owl-prev,
-.jumbotron1 .owl-next,
-.jumbotron2 .owl-prev,
-.jumbotron2 .owl-next {
+.owl-theme .owl-prev,
+.owl-theme .owl-next,
+.owl-theme .owl-prev,
+.owl-theme .owl-next {
     width: 33px;
     height: 36px;
     position: absolute;
-    transform: translateY(-50%);
-    outline: none;
-}
-
-.jumbotron1 .owl-prev,
-.jumbotron1 .owl-next {
-    top: -33vh;
-}
-
-.jumbotron2 .owl-prev,
-.jumbotron2 .owl-next {
-    top: -12vh;
-}
-
-@media (max-width:376px) {
-    .jumbotron1 .owl-prev,
-    .jumbotron1 .owl-next {
-        top: -20vh;
-    }
-    .jumbotron2 .owl-prev,
-    .jumbotron2 .owl-next {
-        top: -30vh;
-    }
-}
-
-@media (max-width:476px) {
-    .jumbotron1 .owl-prev,
-    .jumbotron1 .owl-next {
-        top: -22vh;
-    }
-}
-
-@media (min-width:768px) {
-    .jumbotron2 .owl-prev,
-    .jumbotron2 .owl-next {
-        top: -42vh;
-    }
+    /* margin-top: -15px; */
+    top: 50%;
 }
 
 .container .owl-theme .owl-nav .owl-prev {
@@ -113,11 +77,6 @@
     background-image: url(../img/next.png);
     background-size: cover;
     background-position: center;
-}
-
-.container .owl-theme .owl-nav .owl-prev:hover,
-.container .owl-theme .owl-nav .owl-next:hover {
-    background-color: none;
 }
 
 .owl-dots {
