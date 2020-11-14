@@ -1,17 +1,7 @@
 * {
-    /* position: relative; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-.bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
 }
 
 .container {
@@ -28,9 +18,17 @@
     }
 }
 
-.col-1-1 {
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: #000000;
 }
+
+
+/* jumbotron */
 
 .jumbotron1 {
     margin-top: 30px;
@@ -50,19 +48,15 @@
     padding-top: 16px;
 }
 
-.owl-theme {
-    /* position: relative; */
-}
-
-.owl-theme .owl-prev,
-.owl-theme .owl-next,
 .owl-theme .owl-prev,
 .owl-theme .owl-next {
     width: 33px;
     height: 36px;
     position: absolute;
-    /* margin-top: -15px; */
     top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    background-position: center;
 }
 
 .container .owl-theme .owl-nav .owl-prev {
@@ -75,18 +69,18 @@
 .container .owl-theme .owl-nav .owl-next {
     right: 24px;
     background-image: url(../img/next.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .owl-dots {
     display: none;
 }
 
+
+/* video */
+
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
+    padding-bottom: 58%;
     height: 0;
 }
 
@@ -97,6 +91,9 @@
     width: 100%;
     height: 100%;
 }
+
+
+/* form */
 
 .form {
     height: 880px;
@@ -126,6 +123,10 @@
     color: #c8957f;
     margin-top: 64px;
     margin-bottom: 28px;
+}
+
+.col-1-1 {
+    width: 100%;
 }
 
 .name {
